@@ -3,7 +3,16 @@ Overview:
 This project focuses on predicting taxi fares in a city using Spark's MLlib. Two different models are developed to predict fares based on trip distance and trip duration. Additionally, Spark operations are employed to compute average tip amounts and determine peak trip hours.
 
 Project Structure:
-Dataset: The data used for this project contains information about taxi trips, including trip distance, trip duration, fare amount, and tip amount.
+Dataset:
+CSV Columns:
+pickup_date: Date of taxi pickup.
+pickup_time: Time of taxi pickup.
+dropoff_date: Date of taxi drop-off.
+dropoff_time: Time of taxi drop-off.
+distance: Distance of the trip in miles.
+tip: Tip amount given for the trip.
+fare: Fare amount charged for the trip.
+
 
 Models:
 
